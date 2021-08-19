@@ -1,4 +1,6 @@
+import AboutUs from "./AboutUs";
 import Header from "./Header";
+import HowItWorks from "./HowItWorks";
 import Navbar from "./navbar";
 
 function App() {
@@ -7,7 +9,8 @@ function App() {
 
       <Navbar/>
       <Header/>
-
+      <HowItWorks/>
+      <AboutUs/>
     </div>
   );
 }
