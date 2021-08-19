@@ -251,8 +251,19 @@ header {
   margin: 1rem 0;
 }
 
+.ourServicesRightSide{
+  margin-top: 10rem;
+}
+.ourServicesRightSideContent{
+  padding-left: 8rem;
+}
 
 
+
+/* common  */
+.commonSection{
+  margin: 5rem 0;
+}
 
 
 
