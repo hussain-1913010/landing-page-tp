@@ -266,12 +266,53 @@ header {
 }
 
 
+/* services  */
+.serviceMainContainer{
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
 
+.serviceMainContainer .mainHeading{
+  margin: 3rem 0;
+}
+.workContainerSubdiv{
+  padding: 10px 40px;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
+}
 
+.workContainerSubdiv:hover{
+  background-color: var(--bgcolor);
+  cursor: pointer;
+}
 
+.workContainerSubdiv:hover > .fontawesome_style{
+  background-color: white;
+}
 
+.workContainerSubdiv .main_hero_para{
+  widows: 100%;
+}
 
+.serviceMainContainer .fontawesome_style{
+  text-align: left;
+  margin: 2rem 0;
+}
 
+@media (min-width: 1400px) {
+  .serviceContainer .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .serviceContainer .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
 
 
 
