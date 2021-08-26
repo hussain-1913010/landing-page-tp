@@ -1,10 +1,14 @@
 import React from 'react';
+import Error404 from '../Error404';
+import Footer from '../Footer';
+import Navbar from '../navbar';
 
 const Error = () => {
     return (
         <div>
-                        <h1>error</h1>
-
+            <Navbar/>
+            <Error404/>
+            <Footer/>
         </div>
     );
 };
