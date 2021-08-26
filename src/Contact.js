@@ -52,10 +52,10 @@ const Contact = () => {
         });
         alert("Data Stored");
       } else {
-        alert("please fill all the data");
+        alert("Please fill all the data");
       }
     } else {
-      alert("please fill all the data");
+      alert("Please fill all the data");
     }
   };
 

@@ -131,7 +131,7 @@ header {
 
 .input-group-button {
   position: absolute;
-  right: 51%;
+  right: 26%;
   top: 0.5rem;
   color: #fff;
   background-color: var(--primary-color);
@@ -537,3 +537,134 @@ footer .fontawesome_style:hover{
     max-width: 1400px;
   }
 }
+
+
+@media (max-width: 998px) {
+  .navbar .navbar-collapse {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 2rem 1rem;
+  }
+  .input-group .btn_style{
+    font-size: 1.2rem;
+  }
+  /* main hero section */
+  .main-hero-container h1{
+    font-size: 2.5rem;
+  }
+  .main_hero_para, .main-hero-para{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+  .main-hero-container .header-left-side{
+    padding-left: 4rem;
+    margin-top: 1rem;
+  }
+  .main-herosection-images{
+    position: relative;
+    height: 25rem;
+  }
+  .header-right-side img{
+    width: 60%;
+    height: 100%;
+    margin-top: 0;
+  }
+  .header-right-side .main-hero-img2{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    left: 50%;
+    top: -2%;
+    box-shadow: 0.8px 0rem 0.8rem rgb(0 0 0 / 25%);
+  }
+  .input-group .input-group-button{
+    right: 26%;
+    width: 30%;
+    /* margin-bottom: 5rem !important; */
+  }
+
+  .crossSectional{
+    /* margin-top: 4rem; */
+    padding-top: 3rem;
+  }
+
+
+  .workContainer{
+    width: 80vw;
+    padding: 5rem 1rem;
+  }
+
+  .workContainer .mainHeading{
+    font-size: 2.7rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+    word-spacing: 0rem;
+  }
+  .workContainerSubdiv{
+    padding: 0;
+  }
+  /* how to use working */
+  .ourServiceList{
+    padding-left: 3rem;
+  }
+  .serviceRightSideImg{
+    text-align: center;
+  }
+  /* services */
+  .ourServices img{
+    width: 70%;
+    height: 85%;
+  }
+  .ourServices .serviceLeftSideImg img{
+    margin-top: 0;
+  }
+  .serviceContainer .workContainerSubdiv{
+    padding: 0 2rem;
+    margin: 2rem auto;
+  }
+  .serviceContainer .mainHeading{
+    margin: 5rem auto 0 auto;
+    font-weight: bolder;
+  }
+  .ourServicesRightSideContent{
+    padding-left: 3rem;
+  }
+  /* contact */
+  .contactUsSection{
+    margin-top: 1rem;
+  }
+  .contactRightside{
+    margin-top: 5rem;
+  }
+  .contactRightside form .main_hero_para{
+    font-size: 1.3rem;
+    color: var(--text-color);
+    margin: 0;
+    font-weight: lighter;
+    width: 98%;
+    padding: 0 1rem;
+  }
+
+}
+
+@media (max-width: 540px) {
+  
+  .crossSectional{
+    margin-top: 4rem;
+    padding-top: 2rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

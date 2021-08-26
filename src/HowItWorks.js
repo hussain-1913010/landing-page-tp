@@ -5,7 +5,7 @@ const HowItWorks = () => {
   const [workdata, setWorkdata] = useState(workapi);
   return (
     <div>
-      <section className="">
+      <section className="crossSectional">
         <div className="workContainer container">
           <h1 className="mainHeading text-center">How it works</h1>
           <div className="row">
